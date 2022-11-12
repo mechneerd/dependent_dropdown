@@ -1,0 +1,28 @@
+
+
+<?php 
+
+$servername="localhost";
+$username="root";
+$password="";
+$dbname="prasanthdb";
+
+$con = new mysqli($servername,$username,$password,$dbname);
+
+$sql = "DELETE * FROM country WHERE country_id=".$;
+
+ 
+
+
+if($con->query($sql)){
+		echo 'data deleted succesfully';		
+			
+}else{echo 'error deleting data';}
+
+
+?>
+
+
+
+
+
